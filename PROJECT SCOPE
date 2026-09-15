@@ -1,0 +1,32 @@
+MEGA RAW RETAIL ANALYTICS PROJECT
+
+Scale:
+- 20 operational CSV source files
+- ~950K existing raw rows
+- 3 independent systems
+- Designed to scale toward multi-million-row ETL practice
+
+Business domains:
+CRM, Retail ERP, E-Commerce, Customers, Products, Suppliers,
+Purchasing, Inventory, Sales, Returns, Payments, Delivery,
+Promotions, Reviews, Complaints and Feedback.
+
+The source data is deliberately inconsistent.
+Do not clean it manually in Excel. Build a repeatable pipeline.
+
+Recommended architecture:
+RAW -> PROFILING -> STAGING -> CLEAN/CONFORMED -> DWH -> SEMANTIC MODEL -> BI
+
+Recommended portfolio outputs:
+1. Data Dictionary
+2. Data Quality Report
+3. Source-to-Target Mapping
+4. Staging Layer
+5. Dimension/Fact Model
+6. Surrogate Keys
+7. Incremental Load Logic
+8. SCD Type 1 / Type 2
+9. ETL validation checks
+10. SQL analytical layer
+11. Power BI semantic model
+12. Executive dashboard
